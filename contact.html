@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KUZIRA CAFE</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+<!--     <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+<!--     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+<!--     <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet"> -->
+</head>
+<body id="top">
+
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img alt="KUZIRA CAFE"
+                src="images/logo.svg"></a>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href=index.html#news>お知らせ</a></li>
+                <li><a href=index.html#shop>店舗案内</a></li>
+                <li><a href="access.html">アクセス</a></li>
+                <li><a href="menu.html">メニュー</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <h1 class="hero contact">お問い合わせ</h1>
+
+    <main>
+        <form action="result.html">
+            <p>
+                お問い合わせ<br>
+                <label for="kind">お問い合わせの種類</label><br>
+                <select name="kind" id="kind">
+                <option value="1">ご予約</option>
+                <option value="2">イベントに関するお問い合わせ</option>
+                <option value="3">その他</option>
+                </select>
+            </p>
+            <p>
+                初めてのご来店ですか？<br>
+                <input type="radio" name="first" value="yes" checked>はい
+                <br>
+                <input type="radio" name="first" value="no">いいえ
+            </p>
+            <p>
+                <input type="checkbox" name="how" value="friend">知り合いの紹介で
+                <br>
+                <input type="checkbox" name="how" value="magazine">SNS、　Webサイト、　雑誌などを見て
+            </p>
+            <p>
+                <label for="subject">お聞き合わせの件名</label><br>
+                <br>
+                <input type="text" name="subject" placeholder="タイトル" id="subject">
+            </p>
+            <p>
+                <label for="message">お聞き合わせのの具体的な内容</label><br>
+                <textarea name="message" id="message"></textarea>
+            </p>
+            <p>
+            </p>
+            <p>
+                <input type="submit" value="送信">
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        <div class="gotop">
+            <a href="index.html#top"><img alt="ページトップへ戻る"
+                src="images/gotop.svg"></a>
+
+        </div>
+        <p class="copyright">&copy; KUZIRA CAFE</p>
+    </footer>
+
+</body>
+</html>
